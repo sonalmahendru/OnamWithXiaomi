@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    background:#f9e2d3;
+    height: auto;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 30px 0 40px rgba(0,0,0,0.1),
+    -30px 0 40px rgba(0,0,0,0.1);
+}
+
+
+img{
+    /*display: block;*/
+    width: 90%;
+    
+}
+
+.icon-image{
+    width:5%;
+    align-self: center;
+    padding:2px;
+}
+
+/*img {
+    display: inline;
+
+}*/
+
+.header{
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.header div{
+    padding:0.5rem;
+}
+
+.landing-image{
+    flex:1;
+    order:2;
+}
+
+.landing-text{
+    flex:9;
+    order:1;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.filter{
+    display: flex;
+}
+
+.filter-image{
+    flex:2;
+    align-self: center;
+}
+
+.filter-image-asur{
+    flex:1;
+    align-self: center;
+    width: 65%;
+    padding-left: 0.75rem;
+}
+
+.filter-image-harvest{
+    flex:1;
+    align-self: center;
+    width: 80%;
+    padding-left: 0.75rem;
+}
+
+.filter-image-kathakali{
+    flex:1;
+    align-self: left;
+    width: 120%
+}
+
+.filter-image-tiger{
+    flex:1;
+    align-self: center;
+    width: 70%;
+    padding-left: 0.5rem;
+}
+
+.filter-title{
+    flex:6;
+}
+
+.filter-link{
+    flex:1;
+    align-self: center;
+}
+
+.link-image{
+    width:50%
+}
+
+.footer{
+    padding-top:2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+/*#landing{
+   /* background: #fff;
+   height: 40vh;
+}*/
+
+/*#landing-text{
+    display: flex;
+    flex: 0 1 80vw;
+   /* height: 50vh;*/
+  /* width: 80vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left:1rem;
+}*/
+
+/*#landing-image{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height: 50vh;*/
+    /*width: 20vw;
+    flex: 0 1 20vw;
+    margin: 0;
+}*/
+
+.btn{
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 0 0 0;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+
+.btn:hover{
+    background: #f4f4f4;
+}
